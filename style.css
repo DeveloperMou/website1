@@ -1,0 +1,102 @@
+.logo{}
+.header{
+    box-shadow: 1px 2px 7px #F4CCA4;
+}
+.img-logo{
+    display: inline-block;
+}
+.img-logo img{
+    width: 150px;
+}
+.menu{}
+.menu ul li{
+    display: inline-block;
+    position: relative;
+    padding: 0px 10px;
+}
+.menu ul{
+    display: inline-block;
+}
+.menu ul li a{
+    display: inline-block;  
+    text-decoration: none; 
+    font-family: 'Satisfy', cursive;
+    font-size: 20px;
+    border-bottom: 3px solid transparent;
+}
+.menu-2 ul li a{
+    color: rgb(71, 4, 71);
+    padding: 0px 5px;
+
+}
+.menu ul li ul {
+    position: absolute;
+    top: 178%;
+    left: 0px;
+    width: 300px;
+    background-color: rgb(195, 181, 181);
+}
+/* .menu ul li ul li:hover>a{
+    background-color: seagreen;
+} */
+.menu ul li ul{
+  opacity: 0;
+  visibility: hidden;
+  transition: .7s;
+}
+.menu ul li:hover ul{
+  opacity: 1;
+  visibility: visible;
+}
+.menu ul li ul li {
+    display: block;
+}
+.menu ul li ul li a{
+    display: block;
+}
+.menu ul li:hover> a{
+    color: rgb(35, 1, 228);
+    border-bottom: 3px solid rebeccapurple;
+}
+.menu-2{text-align: right;}
+.menu-2 ul li{
+    display: inline-block;
+}
+.menu-2 ul{
+    display: inline-block;
+}
+.menu-2 ul li a{
+    display: inline-block;   
+    font-size: 25px;
+}
+
+.bannar {
+    background-image: url(https://i1.wp.com/niyenin.com/wp-content/uploads/2021/05/PngItem_384661.png?resize=600%2C600&ssl=1);
+    background-repeat: no-repeat;
+    background-color: rgba(38, 172, 212, 0.691);
+    padding: 244px 0px;
+    font-family: 'Satisfy', cursive;
+    font-size:17px ;
+}
+.con-1 {
+    box-sizing: border-box;
+    border: 2px solid #e91e63;
+    width: 304px;
+    margin: 38px 9px;
+}
+.con-1 h2{
+    text-align: center;
+    font-size: 20px;
+}
+.bb{
+    margin: 9px 700px;
+}
+.ss{
+    margin: 30px;
+}
+.footer{
+    background: rgb(58, 58, 80);
+    color: mintcream;
+    text-align: center;
+    padding: 10px;
+}
